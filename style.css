@@ -1,0 +1,35 @@
+h1{
+    color:cyan
+}
+.header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    color:brown ;
+}
+
+.item p{
+    color: darkmagenta;
+}
